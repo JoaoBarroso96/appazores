@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?4340d79261839ec5246611343eb7c5c0") format("truetype"),
+url("./flaticon.woff?4340d79261839ec5246611343eb7c5c0") format("woff"),
+url("./flaticon.woff2?4340d79261839ec5246611343eb7c5c0") format("woff2"),
+url("./flaticon.eot?4340d79261839ec5246611343eb7c5c0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?4340d79261839ec5246611343eb7c5c0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "vr-glasses": "\f101",
+    "mobile": "\f102",
+    "ai": "\f103",
+    "chip": "\f104",
+    "ai-1": "\f105",
+    "seo": "\f106",
+    "brainstorming": "\f107",
+    "goal": "\f108",
+);
+
+.flaticon-vr-glasses:before {
+    content: map-get($flaticon-map, "vr-glasses");
+}
+.flaticon-mobile:before {
+    content: map-get($flaticon-map, "mobile");
+}
+.flaticon-ai:before {
+    content: map-get($flaticon-map, "ai");
+}
+.flaticon-chip:before {
+    content: map-get($flaticon-map, "chip");
+}
+.flaticon-ai-1:before {
+    content: map-get($flaticon-map, "ai-1");
+}
+.flaticon-seo:before {
+    content: map-get($flaticon-map, "seo");
+}
+.flaticon-brainstorming:before {
+    content: map-get($flaticon-map, "brainstorming");
+}
+.flaticon-goal:before {
+    content: map-get($flaticon-map, "goal");
+}

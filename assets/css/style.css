@@ -2963,8 +2963,8 @@ Services Area
 }
 
 .services-item i.flaticon-rocket {
-  background-color: #f878084f;
-  color: #F87808;
+  background-color: #f840084f;
+  color: #ef4235;
 }
 
 .services-item i.flaticon-branding {
@@ -2977,19 +2977,19 @@ Services Area
   color: #C208F8;
 }
 
-.services-item i.flaticon-management {
-  background-color: #f878084f;
-  color: #F87808;
+.services-item i.flaticon-brainstorming {
+  background-color: #d6e9fc;
+  color: #359cd6;
 }
 
-.services-item i.flaticon-seo {
-  background-color: #f808a84f;
-  color: #F808A8;
+.services-item i.flaticon-branding {
+  background-color: #d6e9fc;
+  color: #359cd6;
 }
 
-.services-item i.flaticon-operator {
-  background-color: #E5F2FF;
-  color: #40D298;
+.services-item i.flaticon-ai {
+  background-color: #d6e9fc;
+  color: #359cd6;
 }
 
 .services-item h3 {
