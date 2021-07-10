@@ -2949,10 +2949,10 @@ Services Area
   text-align: center;
   margin-bottom: 14px;
   display: block;
-  border-radius: 5px;
+  padding-top: 4px;
 }
 
-.services-item i.flaticon-education {
+.services-item i.flaticon-seo {
   background-color: #E5F2FF;
   color: #40D298;
 }
@@ -2962,7 +2962,12 @@ Services Area
   color: #C208F8;
 }
 
-.services-item i.flaticon-rocket {
+.services-item i.flaticon-prototype {
+  background-color: #f840084f;
+  color: #ef4235;
+}
+
+.services-item i.flaticon-goal {
   background-color: #f840084f;
   color: #ef4235;
 }
@@ -2972,7 +2977,7 @@ Services Area
   color: #F808A8;
 }
 
-.services-item i.flaticon-smartphone {
+.services-item i.flaticon-vr-glasse {
   background-color: #c408f82d;
   color: #C208F8;
 }
@@ -2987,8 +2992,18 @@ Services Area
   color: #359cd6;
 }
 
+.services-item i.flaticon-prototype {
+  background-color: #c408f82d;
+  color: #359cd6;
+}
+
 .services-item i.flaticon-ai {
-  background-color: #d6e9fc;
+  background-color: #c408f82d;
+  color: #359cd6;
+}
+
+.services-item i.flaticon-vr-glasses {
+  background-color: #c408f82d;
   color: #359cd6;
 }
 
@@ -5558,8 +5573,6 @@ Contact Area
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  padding: 45px 30px 40px;
-  border: 1px solid #40D298;
   border-radius: 5px;
 }
 

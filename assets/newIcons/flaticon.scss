@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?01cc4c993ccaa9558d02b7358215155a") format("truetype"),
+url("./flaticon.woff?01cc4c993ccaa9558d02b7358215155a") format("woff"),
+url("./flaticon.woff2?01cc4c993ccaa9558d02b7358215155a") format("woff2"),
+url("./flaticon.eot?01cc4c993ccaa9558d02b7358215155a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?01cc4c993ccaa9558d02b7358215155a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "content": "\f101",
+    "goal": "\f102",
+    "brainstorming": "\f103",
+    "seo": "\f104",
+    "ai": "\f105",
+    "chip": "\f106",
+    "ai-1": "\f107",
+    "mobile": "\f108",
+    "vr-glasses": "\f109",
+    "prototype": "\f10a",
+);
+
+.flaticon-content:before {
+    content: map-get($flaticon-map, "content");
+}
+.flaticon-goal:before {
+    content: map-get($flaticon-map, "goal");
+}
+.flaticon-brainstorming:before {
+    content: map-get($flaticon-map, "brainstorming");
+}
+.flaticon-seo:before {
+    content: map-get($flaticon-map, "seo");
+}
+.flaticon-ai:before {
+    content: map-get($flaticon-map, "ai");
+}
+.flaticon-chip:before {
+    content: map-get($flaticon-map, "chip");
+}
+.flaticon-ai-1:before {
+    content: map-get($flaticon-map, "ai-1");
+}
+.flaticon-mobile:before {
+    content: map-get($flaticon-map, "mobile");
+}
+.flaticon-vr-glasses:before {
+    content: map-get($flaticon-map, "vr-glasses");
+}
+.flaticon-prototype:before {
+    content: map-get($flaticon-map, "prototype");
+}
